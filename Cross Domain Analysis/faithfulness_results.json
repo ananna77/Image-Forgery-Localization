@@ -1,0 +1,82 @@
+{
+  "TGIF": {
+    "ConvNeXt-L U-Net baseline": {
+      "dataset": "TGIF",
+      "model": "ConvNeXt-L U-Net baseline",
+      "mean_correlation": 0.40904275647270333,
+      "std_correlation": 0.2793897769106938,
+      "mean_cam_inside_mask": 0.20220530605874956,
+      "std_cam_inside_mask": 0.21069529223914318,
+      "n_evaluated": 10
+    },
+    "Full novelty augmented": {
+      "dataset": "TGIF",
+      "model": "Full novelty augmented",
+      "mean_correlation": 0.7865413405293049,
+      "std_correlation": 0.2980705230431552,
+      "mean_cam_inside_mask": 0.723651710228296,
+      "std_cam_inside_mask": 0.2795334947051316,
+      "n_evaluated": 10
+    }
+  },
+  "AutoSplice": {
+    "ConvNeXt-L U-Net baseline": {
+      "dataset": "AutoSplice",
+      "model": "ConvNeXt-L U-Net baseline",
+      "mean_correlation": 0.04111556275859198,
+      "std_correlation": 0.28791992783389386,
+      "mean_cam_inside_mask": 0.2716798413544893,
+      "std_cam_inside_mask": 0.2754338811688972,
+      "n_evaluated": 10
+    },
+    "Full novelty augmented": {
+      "dataset": "AutoSplice",
+      "model": "Full novelty augmented",
+      "mean_correlation": 0.17315971994757398,
+      "std_correlation": 0.3587284757239945,
+      "mean_cam_inside_mask": 0.5266738237347454,
+      "std_cam_inside_mask": 0.4107026947427902,
+      "n_evaluated": 10
+    }
+  },
+  "CASIA v2": {
+    "ConvNeXt-L U-Net baseline": {
+      "dataset": "CASIA v2",
+      "model": "ConvNeXt-L U-Net baseline",
+      "mean_correlation": 0.03958241321190904,
+      "std_correlation": 0.08116827807706702,
+      "mean_cam_inside_mask": 0.08463774437550456,
+      "std_cam_inside_mask": 0.253145223955635,
+      "n_evaluated": 10
+    },
+    "Full novelty augmented": {
+      "dataset": "CASIA v2",
+      "model": "Full novelty augmented",
+      "mean_correlation": -0.05331438089872612,
+      "std_correlation": 0.06919064645826255,
+      "mean_cam_inside_mask": 0.12846270009322325,
+      "std_cam_inside_mask": 0.30027329410057924,
+      "n_evaluated": 10
+    }
+  },
+  "IMD2020": {
+    "ConvNeXt-L U-Net baseline": {
+      "dataset": "IMD2020",
+      "model": "ConvNeXt-L U-Net baseline",
+      "mean_correlation": -0.11065986099289928,
+      "std_correlation": 0.12077993027491526,
+      "mean_cam_inside_mask": 0.009081858358695172,
+      "std_cam_inside_mask": 0.017937756584144704,
+      "n_evaluated": 10
+    },
+    "Full novelty augmented": {
+      "dataset": "IMD2020",
+      "model": "Full novelty augmented",
+      "mean_correlation": -0.06639910326412421,
+      "std_correlation": 0.029224304876563516,
+      "mean_cam_inside_mask": 3.4685035643633455e-05,
+      "std_cam_inside_mask": 0.00010075256932993603,
+      "n_evaluated": 10
+    }
+  }
+}

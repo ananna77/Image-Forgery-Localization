@@ -1,0 +1,30 @@
+{
+  "Inpainting Eval": {
+    "accuracy": 0.879268541124132,
+    "precision": 0.9286384565423307,
+    "recall": 0.13276508273725518,
+    "f1": 0.23231646737854142,
+    "iou": 0.13142424283969084,
+    "tp": 2693709,
+    "fp": 206999,
+    "tn": 126959713,
+    "fn": 17595579,
+    "dataset": "Inpainting Eval",
+    "model": "Full novelty augmented",
+    "n_samples": 1000
+  },
+  "DeFacto Inpainting": {
+    "accuracy": 0.9619074300130208,
+    "precision": 0.2710724061449702,
+    "recall": 0.006578095874986824,
+    "f1": 0.01284449478383683,
+    "iou": 0.006463759487229275,
+    "tp": 36543,
+    "fp": 98266,
+    "tn": 141802479,
+    "fn": 5518712,
+    "dataset": "DeFacto Inpainting",
+    "model": "Full novelty augmented",
+    "n_samples": 1000
+  }
+}

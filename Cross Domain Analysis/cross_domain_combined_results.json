@@ -1,0 +1,131 @@
+{
+  "baseline": {
+    "TGIF": {
+      "accuracy": 0.9884062267485118,
+      "precision": 0.9177002818616836,
+      "recall": 0.8974553136394751,
+      "f1": 0.9074648936864231,
+      "iou": 0.8306047994194625,
+      "tp": 5750488,
+      "fp": 515706,
+      "tn": 94231562,
+      "fn": 657060,
+      "dataset": "TGIF",
+      "model": "ConvNeXt-L U-Net baseline",
+      "n_samples": 686
+    },
+    "AutoSplice": {
+      "accuracy": 0.6071572188911999,
+      "precision": 0.915009060104768,
+      "recall": 0.044566421885887074,
+      "f1": 0.08499316654584842,
+      "iou": 0.04438269670170964,
+      "tp": 9741805,
+      "fp": 904871,
+      "tn": 314442613,
+      "fn": 208848887,
+      "dataset": "AutoSplice",
+      "model": "ConvNeXt-L U-Net baseline",
+      "n_samples": 3621
+    },
+    "CASIA v2": {
+      "accuracy": 0.9108781227358204,
+      "precision": 0.7023098984574767,
+      "recall": 0.010168174204513407,
+      "f1": 0.020046116692848885,
+      "iou": 0.010124537316784267,
+      "tp": 688598,
+      "fp": 291878,
+      "tn": 687404301,
+      "fn": 67032311,
+      "dataset": "CASIA v2",
+      "model": "ConvNeXt-L U-Net baseline",
+      "n_samples": 5123
+    },
+    "IMD2020": {
+      "accuracy": 0.9121290418836804,
+      "precision": 0.22081086100721345,
+      "recall": 0.016239215748241494,
+      "f1": 0.030253481536585757,
+      "iou": 0.015359074149315878,
+      "tp": 60634,
+      "fp": 213963,
+      "tn": 40289036,
+      "fn": 3673167,
+      "dataset": "IMD2020",
+      "model": "ConvNeXt-L U-Net baseline",
+      "n_samples": 300
+    }
+  },
+  "novelty": {
+    "TGIF": {
+      "accuracy": 0.9919365974626456,
+      "precision": 0.9470644142899522,
+      "recall": 0.9243716941332302,
+      "f1": 0.9355804651543418,
+      "iou": 0.8789583842835184,
+      "tp": 5922956,
+      "fp": 331060,
+      "tn": 94416208,
+      "fn": 484592,
+      "dataset": "TGIF",
+      "model": "Full novelty augmented",
+      "n_samples": 686
+    },
+    "AutoSplice": {
+      "accuracy": 0.6145289056836423,
+      "precision": 0.9400147675672139,
+      "recall": 0.06241619382402614,
+      "f1": 0.11705971903181128,
+      "iou": 0.06216857828968248,
+      "tp": 13643599,
+      "fp": 870640,
+      "tn": 314476844,
+      "fn": 204947093,
+      "dataset": "AutoSplice",
+      "model": "Full novelty augmented",
+      "n_samples": 3621
+    },
+    "CASIA v2": {
+      "accuracy": 0.9109596445877591,
+      "precision": 0.745378634476562,
+      "recall": 0.010278745667752331,
+      "f1": 0.020277860072268773,
+      "iou": 0.010242781011735773,
+      "tp": 696086,
+      "fp": 237783,
+      "tn": 687458396,
+      "fn": 67024823,
+      "dataset": "CASIA v2",
+      "model": "Full novelty augmented",
+      "n_samples": 5123
+    },
+    "IMD2020": {
+      "accuracy": 0.9129674388744211,
+      "precision": 0.2586267759176938,
+      "recall": 0.0166787142646327,
+      "f1": 0.031336548625855006,
+      "iou": 0.015917677427468132,
+      "tp": 62275,
+      "fp": 178516,
+      "tn": 40324483,
+      "fn": 3671526,
+      "dataset": "IMD2020",
+      "model": "Full novelty augmented",
+      "n_samples": 300
+    }
+  },
+  "notes": {
+    "best_model": "best_full_novelty_aug.pth",
+    "best_model_known_test_iou": 0.8742,
+    "baseline": "best_base_1_convnextl_unet.pth",
+    "imd2020_note": "IMD2020 capped to 300 indexed/evaluated samples initially for stability."
+  },
+  "paths": {
+    "tgif": "/home/ubuntu/deepfake_assets/tgif/subset",
+    "autosplice": "/home/ubuntu/deepfake_assets/convnext-checkpoint/AutoSplice/AutoSplice",
+    "casia": "/home/ubuntu/deepfake_assets/convnext-checkpoint/CASIA_v2/casia",
+    "imd2020": "/home/ubuntu/deepfake_assets/convnext-checkpoint/IMD2020",
+    "checkpoints": "/home/ubuntu/deepfake_assets/convnext-checkpoints"
+  }
+}
